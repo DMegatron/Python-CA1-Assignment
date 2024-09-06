@@ -1,0 +1,6 @@
+days = int(input("Enter the number of days: "))
+years = int(days/365)
+months = int((days%365)/30)
+weeks = int(((days%365)%30)/7)
+day = int(((days%365)%30)%7)
+print(days, " days is ", "Years = ", years, "Months = ", months, "Weeks = ", weeks, "Days = ", day)
